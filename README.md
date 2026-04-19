@@ -1,4 +1,4 @@
-# Talkcraft
+# TalkCraft
 
 Standalone agent skill for planning, rewriting, auditing, and rehearsing high-stakes presentations with a framework inspired by Patrick Winston's presentation principles.
 
@@ -15,27 +15,35 @@ Standalone agent skill for planning, rewriting, auditing, and rehearsing high-st
 
 ## Validation
 
+All paths below are relative to the repository root.
+
 ```bash
-python3 /Users/mahdi/.codex/skills/.system/skill-creator/scripts/quick_validate.py \
-  /Users/mahdi/Desktop/git/talkcraft/talkcraft
-python3 /Users/mahdi/Desktop/git/talkcraft/talkcraft/scripts/audit_outline.py \
-  /Users/mahdi/Desktop/git/talkcraft/talkcraft/assets/presentation-brief-template.md
+python3 talkcraft/scripts/quick_validate.py
+python3 talkcraft/scripts/audit_outline.py \
+  talkcraft/assets/presentation-brief-template.md
 ```
 
 ## Sync
 
-Check Chef mirror drift:
+Check Chef mirror drift.
+Default lookup uses sibling checkout:
+`../chef/adapters/shared/skills/talkcraft`
 
 ```bash
-python3 /Users/mahdi/Desktop/git/chef/adapters/shared/skills/talkcraft/scripts/sync_mirror.py \
-  /Users/mahdi/Desktop/git/talkcraft/talkcraft --mode check
+python3 talkcraft/scripts/sync_mirror.py --mode check
 ```
 
 Repair drift from Chef copy:
 
 ```bash
-python3 /Users/mahdi/Desktop/git/chef/adapters/shared/skills/talkcraft/scripts/sync_mirror.py \
-  /Users/mahdi/Desktop/git/talkcraft/talkcraft --mode sync
+python3 talkcraft/scripts/sync_mirror.py --mode sync
+```
+
+If Chef lives elsewhere:
+
+```bash
+TALKCRAFT_MIRROR=path/to/chef/adapters/shared/skills/talkcraft \
+  python3 talkcraft/scripts/sync_mirror.py --mode check
 ```
 
 ## Notes

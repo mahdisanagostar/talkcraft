@@ -104,14 +104,24 @@ If you want a realistic first run, hand the agent a short brief and ask for one 
 
 ## Resources
 
-Use these when you are actively building or revising a talk.
+Use these when you are actively making something with TalkCraft, not just reading about it.
 
-- [Skill definition](./talkcraft/SKILL.md)
-- [Presentation brief template](./talkcraft/assets/presentation-brief-template.md)
-- [Slide plan template](./talkcraft/assets/slide-plan-template.md)
-- [Rehearsal checklist](./talkcraft/assets/rehearsal-checklist.md)
-- [Outline auditor](./talkcraft/scripts/audit_outline.py)
-- [Validation wrapper](./talkcraft/scripts/quick_validate.py)
+**Start here**
+
+- [Skill definition](./talkcraft/SKILL.md) for the full agent workflow
+- [Presentation brief template](./talkcraft/assets/presentation-brief-template.md) when you need a strong first input
+
+**Build and rehearse**
+
+- [Slide plan template](./talkcraft/assets/slide-plan-template.md) for deck-ready structure
+- [Rehearsal checklist](./talkcraft/assets/rehearsal-checklist.md) for timing, delivery, and trim passes
+
+**Utilities**
+
+- [Outline auditor](./talkcraft/scripts/audit_outline.py) to check an outline against the TalkCraft rubric
+- [Validation wrapper](./talkcraft/scripts/quick_validate.py) to confirm the skill package still installs cleanly
+- [Mirror sync helper](./talkcraft/scripts/sync_mirror.py) to keep the standalone repo aligned with Chef
+- [Chef repository](https://github.com/mahdisanagostar/chef) if you want the bundled multi-agent version
 
 ## Keep Chef Mirror In Sync
 
@@ -131,8 +141,9 @@ python3 talkcraft/scripts/sync_mirror.py --mode check
 
 ## References
 
-- [Patrick Winston framework notes](./talkcraft/references/framework.md)
-- [TalkCraft rubric](./talkcraft/references/rubric.md)
-- [Agent compatibility notes](./talkcraft/references/agent-compatibility.md)
-- [Chef repository](https://github.com/mahdisanagostar/chef)
-- [Mirror sync helper](./talkcraft/scripts/sync_mirror.py)
+These are the outside sources behind the Patrick Winston thread in TalkCraft. Read them when you want the original context, not just the packaged workflow.
+
+- [Patrick Winston, *How to Speak* course page | MIT OpenCourseWare](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/)
+- [Patrick Winston, *How to Speak* lecture page with outline | MIT OpenCourseWare](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/)
+- [Patrick Winston, *How to Speak* lecture video | MIT OpenCourseWare on YouTube](https://www.youtube.com/watch?v=Unzc731iCUY)
+- [Patrick Winston obituary and MIT background | MIT News](https://news.mit.edu/2019/patrick-winston-professor-obituary-0719)

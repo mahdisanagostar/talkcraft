@@ -143,7 +143,8 @@ python3 talkcraft/scripts/sync_mirror.py --mode check
 
 These are the outside sources behind the Patrick Winston thread in TalkCraft. Read them when you want the original context, not just the packaged workflow.
 
-- [Patrick Winston, *How to Speak* course page | MIT OpenCourseWare](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/)
-- [Patrick Winston, *How to Speak* lecture page with outline | MIT OpenCourseWare](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/)
-- [Patrick Winston, *How to Speak* lecture video | MIT OpenCourseWare on YouTube](https://www.youtube.com/watch?v=Unzc731iCUY)
-- [Patrick Winston obituary and MIT background | MIT News](https://news.mit.edu/2019/patrick-winston-professor-obituary-0719)
+- [MIT OpenCourseWare course overview](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/) for the official summary of *How to Speak* and its stated teaching goals
+- [MIT OpenCourseWare YouTube lecture](https://www.youtube.com/watch?v=Unzc731iCUY) for Winston's actual delivery, timing, and use of examples in full
+- [MIT News: "Learn 'How to Speak'" (2010)](https://news.mit.edu/2010/learn-how-speak) for the origin story, audience response, and why the session became an MIT tradition
+- [Patrick Winston curriculum vitae](https://people.csail.mit.edu/phw/vitae.html) for his teaching record, academic roles, and broader professional background
+- [MIT News obituary](https://news.mit.edu/2019/patrick-winston-professor-obituary-0719) for the long-view context on Winston's work, legacy, and influence at MIT
